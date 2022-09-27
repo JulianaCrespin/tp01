@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>element</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" > 
+    <link rel="stylesheet" href="style.css">
+  </head> 
+<body>
+  <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid" id="navegacion">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/img/logo.jpg" alt="logo" width="100px">
+              <h1>element</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="cursos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cursos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Categorias</a></li>
+                    <li><a class="dropdown-item" href="#">Diseño UX/UI</a></li>
+                    <li><a class="dropdown-item" href="#">Marketing Digital</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="comunidad.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Comunidad
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Recursos</a></li>
+                    <li><a class="dropdown-item" href="#">Estudiantes</a></li>
+                    <li><a class="dropdown-item" href="#">Equipo</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contactanos</a>
+                </li>
+                <!-- <li id="icons">
+                  <div class="h3">
+                    <i class="bi bi-bag"></i>
+                  </div>
+                </li> -->
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="¿Qué deseas aprender?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </header>
+          <h1>Una amplia selección de cursos</h1>
+          <h2>Elegí entre más de 204.000 cursos de vídeo en línea con nuevo contenido cada mes</h2>
+          <br>
+          <h3>Cursos destacados:</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <div class="mx-auto">
+                  <img class="card-img-top img-fluid" src="./assets/img/desarrollo-web-completo-con-html5-css3-js-php-y-mysql.png" class="card-img-top" alt="computadora y herramientas">
+                  <div class="card-body">
+                    <h5 class="desarollo web"><strong>Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL</strong></h5>
+                    <p class="card-text">Aprende Desarrollo Web con este curso 100% práctico, paso a paso y sin conocimientos previos.<br>INCLUYE CUATRO PROYECTOS FINALES.</p>
+                    <p><strong>16,99US$ </strong><small class="text-muted"><del>84,99US$</del></small></p>
+                    <p class="card-text"><small>111.323 estudiantes</small></p>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="assets/img/reactjs.jpg" class="card-img-top" alt="Logo de React">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>React: de cero a experto (Hooks y Mern)</strong></h5>
+                    <p class="card-text">Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, MUI, Multiple Routers...</p>
+                    <p><strong>16,99US$  </strong><small class="text-muted"><del>69,99US$</del></small></p>
+                    <p class="card-text"><small>54.259 estudiantes</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="assets/img/universidad_java.webp" class="card-img-top" alt="Universidad Java">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>Universidad Java - De Cero a Experto - Más Completo +106 hrs</strong></h5>
+                    <p class="card-text">El mejor curso de Java, POO, JDBC, Servlets, JavaEE, Web Services, JSF, EJB, JPA, PrimeFaces, Hibernate, Spring, Struts!</p>
+                    <p><strong>16,99US$  </strong><small class="text-muted"><del>19,99US$</del></small></p>
+                    <p class="card-text"><small>214.803 estudiantes</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <br>
+          <h1>Unite a la comunidad de aprendizaje online en vivo más grande de Latinoamérica</h1>
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+        
+              <div class="carousel-item active">
+                <div class="container-fluid">
+                  <img src="assets/img/computadora_clase_online.jpg" class="d-block w-100" alt="computadora">
+                  <div class="carousel-caption text-start">
+                    <h2>Clases online en vivo dictadas por expertos de la industria, enfoque 100% práctico, mentorías personalizadas y acceso a una comunidad de +300.000 estudiantes.</h2>
+                    <p><a class="btn btn-lg btn-primary" href="#">Aprendé más</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                  <img src="assets/img/profesor2.jpg" class="d-block w-100" alt="mujer levantando el pulgar">
+                  <div class="carousel-caption">
+                    <h2>Vení a enseñar con nosotros</h2>
+                    <h4>Convertite en instructor y cambia vidas, incluida la tuya</h4>
+                    <p><a class="btn btn-lg btn-primary" href="contacto.html">Empezá ahora</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="container-fluid">
+                  <img src="assets/img/sonriendo_online.jpg" class="d-block w-100" alt="hombre sonriendo a la computadora">
+                  <div class="carousel-caption">
+                    <h2>Modalidad 100% Online</h2>
+                    <h4>Estudiá remoto, desde la comodidad de tu casa.</h4>
+                    <p><a class="btn btn-lg btn-primary" href="#">Ver más</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="container-fluid">
+                  <img src="assets/img/certificados.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+        
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+            <br>
+            <h3>Prepárate para una carrera profesional en demanda.</h3>
+            <h5>Incursiona en un nuevo campo, como la Tecnología de la Información o la Ciencia de los Datos. No es necesario tener experiencia previa para comenzar.</h5>
+        </section>
+
+            <div id="recomendaciones"><h3>De la comunidad de element</h3>
+                <h4>Más de 87 millones de personas ya aprenden en element.</h4>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="mx-auto">
+                      <img class="rounded-circle object-fit-cover" src="./assets/img/jimena.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h4 class="card-title">Jimena Ghiraldi</h4>
+                        <h5>Desarrollador Web</h5>
+                        <p class="card-text">'No solo mi currículum luce increíble, lleno de nombres y logotipos de instituciones de nivel mundial, sino que estos certificados también me acercan a mis objetivos profesionales al validar las habilidades que he aprendido.'</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="mx-auto">
+                        <img class="rounded-circle object-fit-cover" src="assets/img/pablo.jpg" alt="...">
+                        <div class="card-body">
+                          <h4 class="card-title">Pablo Diaz</h4>
+                          <h5>Data Scientist</h5>
+                          <p class="card-text">'Ingresar en el mundo de la TI siempre fue inalcanzable, porque o tenía el tiempo pero no el dinero, o tenía el dinero pero no el tiempo. Cuando descubrí el Certificado profesional en Soporte de TI de Google, supe que esta era mi puerta de entrada. Este es mi camino. Así es como puedo llegar a la TI.'</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="mx-auto">
+                        <img class="rounded-circle object-fit-cover" src="assets/img/Gabriel.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h4 class="card-title">Gabriel Lopez</h4>
+                        <h5>Estudiante del Certificado profesional de Ciencia de datos de IBM</h5>
+                        <p class="card-text">'Element me permitió ingresar en el mundo de la inteligencia artificial y ahora ya no puedo alejarme de él. Estudio Medicina y me dedico a analizar cómo se puede utilizar la inteligencia artificial para solucionar problemas de salud en África Occidental. Hasta el momento, he realizado 5.'</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          
+          <footer>
+            <div class="row text-white">
+              <div class="container">
+                  <div class="row gy-5">
+                      <div class="col-lg-4 px-10">
+                        <h4>Más</h4>
+                        <ul class="nav flex-column">
+                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Enseñá en element</a></li>
+                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Empleo</a></li>
+                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Ayuda y Asistencia</a></li>
+                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Inversores</a></li>
+                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Condiciones</a></li>
+                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Política de privacidad</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-4 px-10">
+                          <h4 class="font-weight-bold mb-4">Contacto</h4>
+                          <div class="d-flex">
+                              <p class="ml-3">(+54) 4602-2954</p>
+                          </div>
+                          <div class="d-flex">
+                              <p class="ml-3">Av. Córdoba 432</p>
+                          </div>
+                          <div class="d-flex">
+                              <p class="ml-3">info@element.com</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </footer>
+</body>
+</html>

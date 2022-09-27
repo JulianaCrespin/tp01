@@ -1,0 +1,80 @@
+body{
+    font-family: inherit;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* header{
+    padding: 50px;
+     background-color: blueviolet; 
+    text-align: center;
+} */
+
+
+.clases_online{
+    margin-right: 100px;
+    margin-left: 100px;
+
+
+}
+#icons {
+    width: 15%;
+    height: 15%;  
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+/* .modalidad{
+    background-color: khaki;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.formacion{
+    background-color: khaki;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#tu_formacion{    
+    color: blueviolet;
+} */
+
+#recomendaciones{
+    text-align: center;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+.object-fit-cover {
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    text-align: center;
+    
+    }
+/* .rounded-circle{
+    width: 120px; 
+    height: 120px; 
+    overflow: hidden;
+    border-radius: 100%;    
+    margin: -60px auto 0;
+    }
+.rounded-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.certificados{
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+#certificados_profesionales{
+    font-size: large;
+}
+
+footer{
+    padding: 20px;
+    background-color: palevioletred;
+}
