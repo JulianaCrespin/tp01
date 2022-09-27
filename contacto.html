@@ -10,11 +10,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid" id="navegacion">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo.jpg" alt="logo" width="100px">
+          <h1>element</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="cursos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Programación y Desarrollo</a></li>
+                <li><a class="dropdown-item" href="#">Diseño UX/UI</a></li>
+                <li><a class="dropdown-item" href="#">Marketing Digital</a></li>
+                <li><a class="dropdown-item" href="#">Data</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="comunidad.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Comunidad
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Recursos</a></li>
+                <li><a class="dropdown-item" href="#">Estudiantes</a></li>
+                <li><a class="dropdown-item" href="#">Equipo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactanos</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="¿Qué deseas aprender?" aria-label="Search">
+            <button class="btn btn-light" type="submit">Buscar </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
     
-</body>
-</html><section id="contactanos" class="container">
+  </html><section id="contactanos" class="container">
     <div class="row g-4 py-5">
-        
+      
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -30,7 +78,7 @@
               <label for="inputEmail4" class="form-label">Teléfono celular</label>
               <input type="email" class="form-control" id="inputEmail4">
             </div>
-  
+            
             <div class="col-12">
               <label for="email" class="form-label">e-mail<span class="text-muted"></span></label>
               <input type="email" class="form-control" id="email" placeholder="element@gmail.com">
@@ -51,7 +99,8 @@
                   Deseo suscribirme al newsletter y recibir ofertas exclusivas.
                 </label>
                 
-            </div>
+              </div>
             <br>
             <button type="button" class="btn btn-secondary">Enviar</button>
             </div>
+</body>
