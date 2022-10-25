@@ -6,11 +6,13 @@ body{
 
 #primer_carousel_titulo{
     text-align: left;
+    display: flex;
 }
 
 #primer_carousel{ 
     font-size: 77px; 
     text-shadow: 0px 0px 7px black;
+    display: flex;
 }
 
 #carrera_profesional{
@@ -37,4 +39,8 @@ body{
 footer{
     padding: 20px;
     background-color: black
+}
+
+.contactanos{
+    display: flex;
 }
